@@ -1,0 +1,23 @@
+{
+  "name": "better-reddit",
+  "version": "1.0.0",
+  "description": "clone of reddit",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RafeeqSyedAmjad/Redly.git"
+  },
+  "author": "Rafeeq",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RafeeqSyedAmjad/Redly/issues"
+  },
+  "homepage": "https://github.com/RafeeqSyedAmjad/Redly#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "pug": "^3.0.2"
+  }
+}
