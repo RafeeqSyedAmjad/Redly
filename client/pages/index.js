@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import AuthModal from './AuthModal';
 import Header from './Header';
 import PostForm from './PostForm';
 
@@ -7,6 +8,7 @@ export default function Home() {
     <div>
       <Header />
       <PostForm />
+      <AuthModal />
       <div className="px-6 bg-reddit_dark text-reddit_text">
         <div className="border border-reddit_border bg-reddit_dark-brighter p-2 rounded-md">
           <h5 className="text-reddit_text-darker text-sm mb-1">Posted by u/123 5 hours ago</h5>
