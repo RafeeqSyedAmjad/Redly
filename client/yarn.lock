@@ -1730,6 +1730,16 @@
   "resolved" "https://registry.npmjs.org/quick-lru/-/quick-lru-5.1.1.tgz"
   "version" "5.1.1"
 
+"react-clickout-handler@^1.2.1":
+  "integrity" "sha512-A7sK2M4LW7S+Bq3wdPZoDfrQK9wARS2/lGH1i7R5e5DP+e84d1LIRPPkVe+AsiiYP6AH8eiaFfczbiiF3wx3MQ=="
+  "resolved" "https://registry.npmjs.org/react-clickout-handler/-/react-clickout-handler-1.2.1.tgz"
+  "version" "1.2.1"
+
+"react-clickout-ts@^1.2.0":
+  "integrity" "sha512-uKXVKh32QPVc2bZiO6wHiGAS3LC9qh06OaFxLMQy70pLv3GyJZMDKnmd6l/vvZZ9Vb6+TYgqTXOBv+xgG2BMrQ=="
+  "resolved" "https://registry.npmjs.org/react-clickout-ts/-/react-clickout-ts-1.2.0.tgz"
+  "version" "1.2.0"
+
 "react-dom@18.2.0":
   "integrity" "sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g=="
   "resolved" "https://registry.npmjs.org/react-dom/-/react-dom-18.2.0.tgz"
