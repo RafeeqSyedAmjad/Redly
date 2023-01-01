@@ -5,6 +5,7 @@ import mongoose from "mongoose";
 import cors from 'cors';
 import bcrypt from 'bcrypt';
 import User from './modals/User.js';
+import Comment from './modals/Comment.js';
 import jwt from 'jsonwebtoken';
 
 const secret = 'secret123';
@@ -64,7 +65,7 @@ app.get('/user', (req, res) => {
     })
     .catch(err => {
       console.log(err);
-      res.status(500).send("invalid token");
+      res.sendStatus(500);
     });
 
 
@@ -91,5 +92,11 @@ app.post('/login', (req, res) => {
 app.post('/logout', (req, res) => {
   res.cookie('token', '').send();
 });
+
+app.get('/comments', (req, res) => {
+  Comment.find().then(comments => {
+    res.json(comments);
+  })
+})
 
 app.listen(4000);

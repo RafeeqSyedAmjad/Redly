@@ -1,10 +1,13 @@
-import clsx from 'clsx';
-
-export default function Button(props) {
-    const { className, ...rest } = props;
-    const deafaultClassnames = "border border-gray-300 bg-gray-300 text-reddit_dark rounded-full px-2 font-bold text-sm"
+function Button(props) {
+    let classNames = "border border-gray-300 rounded-full px-3 text-sm font-bold ";
+    if (props.outline) {
+        classNames += "text-gray-300 ";
+    } else {
+        classNames += "bg-gray-300 text-reddit_dark ";
+    }
     return (
-        <button {...props} className={clsx(deafaultClassnames, className)} />
+        <button {...props} className={classNames + props.className} />
     );
 }
 
+export default Button;
